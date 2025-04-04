@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چی بپزم </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="//fdn.fontcdn.ir">
+    <link rel="preconnect" href="//v1.fontapi.ir">
+    <link href="https://v1.fontapi.ir/css/Shabnam" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <img src="images/back.png" alt="" class="imgBack">
+            <h1 class="h1InHeader">بهت میگم چی بپزی</h1>
+        </header>
+
+        <div class="myBody">
+            <div class="firstBox">
+                <h2 class="h2InBox">چیا تو خونه داری ؟</h2>
+                <form action="#" class="form">
+                    <textarea name="" id="textArea" placeholder="بنویس چیا تو خونت هست:"></textarea>
+                    <div id="suggest"></div>
+                    <div class="form__bottom ">
+                        <button class="submit-btn btn2">
+                            <span class="submit-btn__text">اضافه کردن➕📝</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="guidBox">
+            <ol>
+                <li>لطفا مواد غذایی داخل خونه رو کامل به لیست اضافه کن</li>
+                <li>چک کن ببین همه چی رو اضافه کردی </li>
+                <li>گزینه "لیست غذا " رو بزن تا غذا ها بهت نمایش داده بشه</li>
+                <li>میتونی تمامی غذا هارو تو مدیریت غذا ببینی</li>
+                <li class="tip">برای پیشنهاد های خفن تر ریزترین مواد غذایی هم بنویس مثل زعفران و  گردو و یا حتی خیار شور و نخود</li>
+            </ol>
+            </div>
+            <div class="availableFood">
+                <h2 class="h2InBox">اینارو تو خونه داری پس: </h2>
+                <ul class="availableItems">
+                </ul>
+
+            </div>
+            <hr>
+            <div class="btnSection">
+                <button class="foodsList btn">لیست غذا ها📜🍲</button>
+                <button class="foodsManagment btn">مدیریت غذا ها 🔧🍽</button>
+            </div>
+
+        </div>
+        <div class="foodSection hidder">
+
+
+        </div>
+
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

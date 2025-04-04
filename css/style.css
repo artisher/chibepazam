@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    direction: rtl;
+
+    font-family: Shabnam, sans-serif;
+
+
+}
+
+.hidder {
+
+    display: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    text-align: center;
+    background: rgb(235, 63, 108);
+    background: linear-gradient(120deg, rgba(235, 63, 108, 1) 0%, rgba(216, 69, 107, 1) 77%);
+    color: rgb(247, 247, 247);
+    max-height: 150px;
+
+}
+
+.imgBack {
+    width: 1920px;
+    height: 140px;
+    position: absolute;
+    right: 10px;
+
+}
+
+.h1InHeader {
+    padding: 30px;
+    font-size: 70px;
+}
+
+.myBody {
+    background: rgb(68, 102, 115);
+    background: linear-gradient(90deg, rgba(68, 102, 115, 1) 30%, rgba(41, 73, 85, 1) 100%);
+
+}
+
+.h2InBox {
+    color: rgb(247, 247, 247);
+    font-size: 45px;
+    margin-right: 50px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+#textArea {
+    width: 600px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#textArea::placeholder {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: #8f9198;
+}
+
+
+.guidBox {
+    background-color: #f7f7f7;
+    width: 600px;
+    position: absolute;
+    left: 320px;
+    top: 170px;
+    line-height: 55px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.guidBox ol {
+    padding: 20px;
+}
+
+.guidBox li {
+    color: #375865;
+    font-size: 24px;
+}
+
+.tip {
+    color: #888888 !important;
+    font-size: 15px !important;
+}
+
+.availableItems {
+    margin-right: 40px;
+    color: rgb(224, 224, 224);
+    list-style-type: none;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+
+
+.btn {
+    all: unset;
+    background-color: rgb(224, 224, 224);
+    color: #8f9198;
+    margin: 25px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid rgb(235, 130, 158);
+    ;
+}
+
+.btn:hover {
+    background: rgb(235, 130, 158);
+    background: linear-gradient(130deg, rgb(235, 130, 158) 0%, rgba(218, 43, 88, 1) 77%);
+    color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+
+.btn2 {
+    all: unset;
+    background-color: rgb(224, 224, 224);
+    color: #8f9198;
+    margin-right: 50px;
+    padding: 6px;
+    font-size: 25px;
+    border-radius: 4px;
+    border: 3px solid rgb(207, 223, 87);
+
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn2:hover {
+    background: rgb(207, 223, 87);
+    background: linear-gradient(150deg, rgba(207, 223, 87, 1) 0%, rgba(62, 147, 60, 1) 100%);
+    color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.btn3 {
+    all: unset;
+    background-color: rgb(224, 224, 224);
+    color: #8f9198;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #ad0000;
+}
+
+.btn3:hover {
+    background-color: #ad0000;
+    color: #f7f7f7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foodsList {
+    margin-right: 200px;
+}
+
+.foodsManagment {
+    margin-right: 700px;
+    position: absolute;
+}
+
+
+
+
+
+.foodSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background: rgb(2, 181, 215);
+    background: linear-gradient(90deg, rgba(2, 181, 215, 1) 43%, rgba(1, 132, 177, 1) 100%);
+    width: 100%;
+    height: 800px;
+    max-height: 1500px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+.hInFoodSection {
+    display: inline-block;
+    color: #f7f7f7;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.h2InFoodSection {
+    display: inline-block;
+    color: #f7f7f7;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.foodName {
+    margin-right: 10px;
+    font-size: 40px;
+    color: #f7f7f7;
+
+}
+
+.boxInFoodSection {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    background: rgb(68, 102, 115);
+    background: linear-gradient(90deg, rgba(68, 102, 115, 1) 30%, rgba(41, 73, 85, 1) 100%);
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.ingredientsFoodName {
+    color: #f7f7f7;
+    font-size: 30px;
+}
+
+#suggest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    top: 377px;
+    right: 264px;
+    position: absolute;
+    width: 600px;
+    max-height: 700px;
+    border-radius: 6px;
+    background: rgb(235, 63, 108);
+    background: linear-gradient(120deg, rgba(235, 63, 108, 1) 20%, rgba(216, 69, 107, 1) 77%);
+    overflow-y: auto;
+}
+
+#suggestDiv {
+    cursor: pointer;
+
+}
+
+.itemDiv {
+    cursor: pointer;
+    color: #f7f7f7;
+    margin-right: 10px;
+
+
+}
